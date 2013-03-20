@@ -64,7 +64,6 @@ Gem::Specification.new do |s|
     'config/routes.rb',
     'features',
     'features/dashboard.feature',
-    'features/step_definitions',
     'features/support',
     'features/support/paths.rb',
     'lib',

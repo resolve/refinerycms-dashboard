@@ -73,5 +73,5 @@ Gem::Specification.new do |s|
     'refinerycms-dashboard.gemspec'
   ]
 
-  s.add_dependency 'refinerycms-core', '= 1.0.10'
+  s.add_dependency 'refinerycms-core', '~> 3.0'
 end

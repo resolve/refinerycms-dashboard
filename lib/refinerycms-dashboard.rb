@@ -27,7 +27,6 @@ module Refinery
       config.after_initialize do
         Refinery.register_engine(Refinery::Dashboard)
       end
-
     end
   end
 end

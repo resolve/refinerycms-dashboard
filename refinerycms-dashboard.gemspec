@@ -3,7 +3,7 @@
 
 Gem::Specification.new do |s|
   s.name = "refinerycms-dashboard".freeze
-  s.version = "1.0.10"
+  s.version = "3.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib".freeze]

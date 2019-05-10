@@ -15,7 +15,7 @@ module Refinery
         Refinery::Plugin.register do |plugin|
           plugin.pathname = root
           plugin.name = 'refinery_dashboard'
-          plugin.url = {:controller => '/admin/dashboard', :action => 'index'}
+          plugin.url = {:controller => '/refinery/admin/dashboard', :action => 'index'}
           plugin.menu_match = /(admin|refinery)\/(refinery_)?dashboard$/
           plugin.directory = 'dashboard'
           plugin.always_allow_access = true

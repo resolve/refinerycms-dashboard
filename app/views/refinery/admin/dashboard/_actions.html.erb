@@ -48,8 +48,8 @@
   <% locales.sort_by{|key, value| value}.each do |locale, locale_title| %>
     <li>
       <%= link_to locale_title.respond_to?(:force_encoding) ? locale_title.force_encoding('utf-8') : locale_title,
-                  params.dup.tap { |p| p[:set_locale] = locale },
-                  :style => "background-image: url('/images/refinery/icons/flags/#{locale}.png');" %>
+                  params.merge(set_locale: locale).permit!,
+                  style: "background-image: url('/images/refinery/icons/flags/#{locale}.png');" %>
     </li>
   <% end %>
 </ul>
